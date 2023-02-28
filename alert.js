@@ -1,0 +1,1 @@
+window.alert("¡Hola! Mi nombre es Daiana, soy una simple estudiante de agronomía que ha intentado plasmar todo lo aprendido durante el curso en la siguiente página ¡Espero que sea de tu agrado!")

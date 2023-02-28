@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 65px;
+    background-color: #43295c;
+    color: rgb(179, 180, 248);
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.cara{
+    border-radius: 50%;
+    height: 80%;
+}
+.uno{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: calc(100vh - 65px);
+    background-color: #303030;
+    color: rgb(255, 255, 255);
+    /* padding-top: 10%; */
+}
+
+.caja-central{
+    margin-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 50%;
+}
+.caja-cara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #644262;
+}
+.caja-presentacion{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    background-color: #e9e1e1;
+    color: #303030;
+    padding: 10px;
+}
+
+.dos{
+    background-color: #e9e1e1;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: #303030;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.formacionacademica{
+    width: 100%;
+}
+.Aptitudes{
+    width: 100%;
+}
+
+.card{
+    text-align: center;
+    width: 30%;
+    border: solid #F2F2F2 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card img{
+    width: 100%;
+}
+.card a, footer a {
+    color: white;
+}
+
+.red-social{
+    height: 40px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: #422d57;
+    display: flow-root;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    color: #fbf6fc;
+    height: 210px;
+    border-radius: 10px;
+    
+}
+@media (max-width: 1000px) {
+    .caja-central{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .caja-cara{
+        width: 100%;
+        height: 50%;
+    }
+    .caja-presentacion{
+        width: 100%;
+        height: 100%;
+        align-items: flex-start;
+    }
+    .aptitudes{
+        width: auto;
+    }
+    .dos{
+        height: auto;
+        padding: 0 10px 10px 10px;
+
+    }
+    .tres{
+        height: auto;
+    }
+    
+    .card{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .red-social{
+        margin: 0 10px 0 20px;
+    }
+}
